@@ -22,7 +22,7 @@ class PHPUnit_Extensions_AppiumTestCase_Driver
     private $seleniumServerUrl;
     private $seleniumServerRequestsTimeout;
 
-    public function __construct(PHPUnit_Extensions_Selenium2TestCase_URL $seleniumServerUrl, $timeout = 60)
+    public function __construct(PHPUnit_Extensions_Selenium2TestCase_URL $seleniumServerUrl, $timeout = 600)
     {
         parent::__construct($seleniumServerUrl, $timeout);
 
